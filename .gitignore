@@ -1,0 +1,23 @@
+# Secrets and local state
+.env
+.env.*
+!.env.example
+config/*
+!config/.env.example
+!config/README.md
+secrets/
+private/
+local/
+*.pem
+*.key
+*credentials*.json
+*auth*.json
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+outputs/
+vendor/
+*.log
+.DS_Store
+node_modules/

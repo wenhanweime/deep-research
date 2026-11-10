@@ -1,0 +1,21 @@
+{
+  "name": "deep-research-browser-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Thin MCP facade over cdp-browser-daemon with persistent browser sessions.",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "browser-mcp": "./cli.mjs"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.29.0",
+    "zod": "^4.0.0"
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deep Research"
+  short_description: "Multi-source evidence fusion and auditable deep research"
+  default_prompt: "Use $deep-research to conduct a comprehensive, evidence-grounded investigation of this topic."
